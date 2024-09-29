@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000; /* Noir le plus sombre */
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    color: #ffffff; /* Texte blanc */
+    font-size: 24px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    background-color: #ffffff; /* Fond du champ de texte */
+    color: #ffffff; /* Texte du champ de texte */
+    border-radius: 5px;
+    outline: none;
+    text-align: center;
+}
+
+input[type="text"]::-webkit-outer-spin-button,
+input[type="text"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    background-color: #ffffff; /* Fond du champ de texte */
+    color: #ffffff; /* Texte du champ de texte */
+    border-radius: 5px;
+    outline: none;
+    text-align: center;
+}
+
+/* Enlever les flèches pour les champs de type "number" dans certains navigateurs */
+input[type="text"]::-webkit-outer-spin-button,
+input[type="text"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
